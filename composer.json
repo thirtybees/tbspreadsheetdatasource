@@ -1,0 +1,25 @@
+{
+    "name": "thirtybees/tbspreadsheetdatasource",
+    "description": "Thirty bees module that implements excel datasource for csv import",
+    "require": {
+        "php": "^7.2|^8.0",
+        "phpoffice/phpspreadsheet": "^1.19"
+    },
+    "license": "AFL-3.0",
+    "autoload": {
+        "psr-4": {
+            "TbSpreadsheetDatasource\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petr Hučík",
+            "email": "petr@thirtybees.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    }
+}
