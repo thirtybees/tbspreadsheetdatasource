@@ -45,8 +45,8 @@ class TbSpreadsheetDatasource extends Module
         $this->displayName = $this->l('Spreadsheet Datasource');
         $this->description = $this->l('Provides ability to import excel files using thirty bees CSV import.');
         $this->need_instance = 0;
-        $this->tb_versions_compliancy = '>= 1.4.0';
-        $this->tb_min_version = '1.4.0';
+        $this->tb_versions_compliancy = '>= 1.6.0';
+        $this->tb_min_version = '1.6.0';
     }
 
     /**
